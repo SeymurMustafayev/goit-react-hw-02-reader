@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react';
+import Reader from './Reader/Reader';
+import publication from './ publications.json';
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => (
+  <div>
+    <Reader items={publication} />
+  </div>
+);
 
 export default App;
